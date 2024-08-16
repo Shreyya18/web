@@ -60,3 +60,30 @@ li{
    line-height:2.5; /*in unitless linw height is fontsize *line height i.e 20px*2.5*/ 
    text-align:center;
 }
+nav a{
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   padding: 20px;
+   padding-left: 100px;
+   float: left;
+}
+nav{
+   background-color: black;
+   overflow:hidden;
+   
+}
+
+table ,tr,th,td{
+   border: 2px  solid black;
+   border-style:;
+   border-collapse:collapse;
+   padding: 10px;
+   border-spacing: 5px;
+}
+th{
+   background-color: rgba(39, 77, 227, 0.324);
+}
+td{
+   background-color: bisque;
+}
