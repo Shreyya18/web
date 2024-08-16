@@ -87,3 +87,13 @@ th{
 td{
    background-color: bisque;
 }
+#specificity li{
+   color: green;
+   font-size: 12px;
+   font-weight: normal;
+
+}
+.fav{
+   color:rgb(249, 7, 47);
+   font-weight: bolder;
+}
