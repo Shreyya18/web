@@ -95,6 +95,17 @@ td{
 }
 .fav{
    color:rgb(249, 7, 47);
-   font-weight: bolder;
+   font-weight: bolder ;
 }
 
+/* use !important tag when you want a prpperty to be used which will not worrk if you dont use !important due to specificity.
+When you apply !important to a CSS property, it ensures that this property will be applied to the element, even if other styles have been defined with higher specificity  */
+
+.overflow{
+   border: 2px solid black;
+   background-color: unset;
+   width:500px;
+   height: 50px;
+   overflow: scroll; 
+   /* use  auto if you dont want scroll button if the size is larger*/
+}
