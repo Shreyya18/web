@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="survey.css">
+  <head></head>
+  <body>
+    <h1 id=title>freeeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+    <form id="survey-form">
+      <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required></label>
+      <label id="email-label">Email <input type="email" id="email" placeholder="Enter your email"required></label>
+      <label id="number-label">Age <input type="number" id="number" min="18" max="100" placeholder="Age"></label>
+<label for="dropdown"> Which option best describes your current role?<select id="dropdown">
+  <option>select current role<option>
+  <option>Student<option>
+  <option>Prefer not to say<option>
+</select>
+<legend>Would you recommend freeCodeCamp to a friend?</legend>
+<label id="radio">
+   <input type="radio"name="yes" value="1" class="inline">Definitely</label>
+   <label id="radio1">
+   <input type="radio"name="yes" value="1" class="inline">Maybe</label>
+   <legend>What would you like to see improved?</legend>
+   <label id="checkbox"> 
+     <input type="checkbox" value="Front-end Projects" class="inline">Front-end Projects</label>
+     <label><input type="checkbox" value="Back-end Projects" class="inline">Back-end Projects</label>
+    <label> <input type="checkbox" value="Challenges" class="inline">Challenges</label>
+     <label><input type="checkbox" value="Data isualization" class="inline">Data isualization</label>
+     <label id="textarea">Any Comments or suggestions? <textarea placeholder="Enter your comment here!!"></textarea></label>
+     <input type="submit" id="submit">
+    </form>
+    </div>
+  </body>
+
+</html>
