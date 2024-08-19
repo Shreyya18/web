@@ -109,3 +109,7 @@ When you apply !important to a CSS property, it ensures that this property will 
    overflow: scroll; 
    /* use  auto if you dont want scroll button if the size is larger*/
 }
+.clip{
+   clip-path: circle(45.0% at 51% 49%);
+   margin-left: 42%;
+}
