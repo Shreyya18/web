@@ -113,3 +113,23 @@ When you apply !important to a CSS property, it ensures that this property will 
    clip-path: circle(45.0% at 51% 49%);
    margin-left: 42%;
 }
+@media screen and (max-width:600px) and (orientation:landscape) {
+   body{
+      color:yellow;
+   }
+   
+}
+
+/* /* if you want the media screen attribute to work even if anyone of the is true use ',' as shown below 
+@media screen and (max-width:700px),screen and (orientation:landscape) {
+   body{
+      color:yellow;
+   }
+   
+ } */
+
+ /* @media not all and (width:400){
+   body{
+      color:blue;
+   }
+ } */
