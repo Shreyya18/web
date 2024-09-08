@@ -1,0 +1,32 @@
+#image{
+    max-width:auto;
+    max-height:auto;
+  }
+   img {
+    display:block;
+    align-items:center;
+    margin: 2em auto;
+    max-width:100%;
+   }
+  h1{
+    text-align:center;
+  }
+  div{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color:black
+  }
+  a:hover{
+    color:blue;
+  }
+  a:visited{
+    color:brown;
+  }
+  #quotes{
+    text-align: center;
+  }
+  #author{
+    text-align:right;
+  }
