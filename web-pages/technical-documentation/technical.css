@@ -1,0 +1,81 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+  } 
+ header{
+    font-size:30px;
+    font-weight:bold;
+    background-color:rgba(128, 128, 128, 0.224);
+  }
+  nav header{
+    background-color:rgba(128, 128, 128, 0.886);
+  } 
+   #navbar{
+    width:200px;
+    display: inline;
+     background-color:black;
+
+
+  }
+  .nav-link{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 13px;
+    color: white;
+  }
+  a:hover{
+    color: rgb(6, 226, 246);
+  }
+
+ @media (min-width:1000px){
+  #navbar {
+    width: 250px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    position: fixed;
+    left:0;
+    top:0;
+    height: 100%;
+    border-right: 2px solid rgba(128, 128, 128, 0.418);
+  } 
+  
+  .nav-link {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 25px;;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.352);
+  } 
+   #main-doc {
+    margin-left: 250px; /* Same as the width of the navbar */
+    padding: 20px;
+    padding-top: 0px;
+    padding-left:10px; 
+    width: calc(100% - 200px); /* Adjust width to fit content */
+   }} 
+
+   /* #navbar{ 
+    width: 200px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    border-right: 2px solid gray;
+  }
+  .nav-link{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid gray;
+  }
+  #main-doc{
+    margin-left: 200px;
+    padding-left: 10px;
+  } */
