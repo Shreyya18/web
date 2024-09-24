@@ -1,0 +1,86 @@
+body{
+    width:100vw;
+    margin:0px;
+    padding:0px;
+    
+  }
+  img{
+    width:100px;
+   
+   
+  }
+  h1{
+    display:inline;
+    vertical-align:50px;
+    text-align:right;
+    padding-right:210px;
+  }
+  #nav-bar{
+  
+    position:fixed;
+    top:0;
+  
+  }
+   nav  {
+    display:inline;
+    text-align:right;
+  }
+  
+  .nav-link {
+    text-decoration:none;
+    padding-right:30px;
+   
+    
+  }
+  a{
+    text-align:center;
+  }
+  h2{
+    text-align:center;
+  }
+  #email, #submit{
+    display:block;
+    margin-bottom:20px;
+   
+    
+    }
+  #email{
+    height:30px;
+    width:270px;
+    margin-left:500px;
+  
+  }
+  #submit{
+    margin-left:46%;
+    height:25px;
+    width:100px;
+    
+  }
+  
+  iframe{
+    position:relative;
+    left:300px;
+    top:10px;
+    bottom:20px;
+    height:300px;
+    width:600px;
+  
+  }
+  
+  #pricing{
+    padding-top:40px;
+    display:flex;
+    justify-content:space-evenly;
+    
+  }
+  input[type="submit"]{
+    margin-left:20px;
+  
+  }
+  
+  @media (max-width:700px){
+    iframe{
+      width:400px;
+      height:200px;
+    }
+  }
