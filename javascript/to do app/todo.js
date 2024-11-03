@@ -34,6 +34,9 @@ discardBtn.addEventListener("click",()=>{
     confirmCloseDialog.close();
     reset();
 });
+const edit=(btnEL)=>{
+
+}
 
 addOrUpdateTaskBtn.addEventListener("click", () => {
 
@@ -42,8 +45,8 @@ addOrUpdateTaskBtn.addEventListener("click", () => {
         <p><strong>Title: ${titleInput.value}</strong></p>
         <p><strong>Date: ${dateInput.value}</strong></p>
         <p><strong>Description: ${descriptionInput.value}</strong></p>
-        <button class="btn" type="button">edit</button>
-        <button class="btn" type="button">delete</button>
+        <button class="btn" type="button" onclick="edit(this)">edit</button>
+        <button class="btn" type="button" onclick="delete(this)">delete</button>
     </div>`;
     ; titleInput.value = ''; 
     dateInput.value = ''; 
@@ -52,3 +55,6 @@ addOrUpdateTaskBtn.addEventListener("click", () => {
     
 });
 
+const delete=(btnEL)=>{
+    btnEL.title
+}
